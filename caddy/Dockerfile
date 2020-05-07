@@ -3,7 +3,10 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache jq coreutils
+RUN apt-get update && apt-get install -y \
+    jq \ 
+    coreutils \
+    && rm -rf /var/lib/apt/lists/*
 
 ENV CADDYPATH /ssl
 
