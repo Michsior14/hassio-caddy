@@ -1,6 +1,6 @@
 {
     "name": "Caddy",
-    "version": "2.0",
+    "version": "2.1",
     "slug": "caddy",
     "description": "Caddy web server",
     "url": "https://github.com/Michsior14/hassio-caddy/tree/master/caddy",
