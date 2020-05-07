@@ -4,7 +4,7 @@
     "slug": "caddy",
     "description": "Caddy web server",
     "url": "https://github.com/Michsior14/hassio-caddy/tree/master/caddy",
-    "image": "Michsior14/hassio-caddy-{arch}",
+    "image": "michaukrieg/hassio-caddy-{arch}",
     "arch": ["armhf", "armv7", "aarch64", "i386", "amd64"],
     "startup": "services",
     "boot": "auto",
