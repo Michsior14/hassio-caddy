@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache caddy=0.11.1-r0 jq coreutils
+RUN apk add --no-cache jq coreutils
 
 ENV CADDYPATH /ssl
 
